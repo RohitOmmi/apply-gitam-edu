@@ -7,6 +7,9 @@ import About from './components/about'
 import Instructions from './components/instructions';
 import ImportantDates from './components/importantdates';
 import FeeStructure from './components/feestructure';
+import ExamInstructions from './components/examinstructions';
+import Scholarship  from './components/Scholarship';
+import Subscholarshipsection from './components/subscholarship';
 
 function App() {
   return (
@@ -25,6 +28,15 @@ function App() {
       </section>
       <section className='feestructuresection'>
         <FeeStructure/>
+      </section>
+      <section className='ExamInstructions'>
+        <ExamInstructions/>
+      </section>
+      <section className='green-bg Scholarship'>
+        <Scholarship/>
+      </section>
+      <section>
+        <Subscholarshipsection/>
       </section>
     </div>
   );
