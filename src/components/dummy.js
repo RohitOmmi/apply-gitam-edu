@@ -1,7 +1,7 @@
 <form className='input-form w-100'>
                             
-                            <button type="button" class="btn btn-toggle mb-3 active" data-bs-toggle="button" aria-pressed="false" autocomplete="off" id="toggleButton">
-                                <div class="handle"></div>
+                            <button type="button" className="btn btn-toggle mb-3 active" data-bs-toggle="button" aria-pressed="false" autocomplete="off" id="toggleButton">
+                                <div className="handle"></div>
                             </button>
                             <Col md={12} >
                             <div>
@@ -73,3 +73,39 @@
                                 </Col>
                            
                         </form>
+                         <Col md={6}>
+                         <div className='dropdown-box'>
+                    //          <select id="locations" name="locations" className='dropdown-input' style={{width:"100%"}}>
+                    //              <option value="campus">Campus</option>
+                    //              <option value="visakhapatnam">Visakhapatnam</option>
+                    //              <option value="bengaluru">bengaluru</option>
+                    //          </select>
+                    //      </div>
+                    //  </Col>
+                    //  <Col md={6}>
+                    //      <div className='dropdown-box'>
+                    //          <select id="degree" name="degree" className='dropdown-input' style={{width:"100%"}}>
+                    //              <option value="campus">Degree</option>
+                    //              <option value="ug">UG</option>
+                    //              <option value="pg">PG</option>
+                    //          </select>
+                    //      </div>
+                    //  </Col>
+                    //  <Col md={6}>
+                    //      <div className='dropdow'>
+                    //          <select id="school" name="school" className='dropdown-input' style={{width:"100%"}}>
+                    //              <option value="Descipline">Descipline</option>
+                    //              <option value="Engineering">Engineering</option>
+                    //              <option value="Architecture">Architecture</option>
+                    //          </select>
+                    //      </div>
+                    //  </Col>
+                    //  <Col md={6}>
+                    //      <div className='dropdow'>
+                    //          <select id="degree" name="degree" className='dropdown-input' style={{width:"100%"}}>
+                    //              <option value="campus">interested program</option>
+                    //              <option value="ug">B.Tech Aerospace engineering</option>
+                    //              <option value="pg">B.Tech Bio-technology engineering</option>
+                    //          </select>
+                    //      </div>
+                    //  </Col>

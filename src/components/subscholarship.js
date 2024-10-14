@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 import Table from 'react-bootstrap/Table';
 
+
 import { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
@@ -18,8 +19,8 @@ export default function Subscholarshipsection() {
                     <Col md={12}>
                         <div className='sub-scholar-div'>
                             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}>
-                                <input disabled value="Engineering" readonly className='input-readonly' />
-                                <input disabled value='B.Tech Aerospace Engineering' readonly className='input-readonly' />
+                                <input disabled value="Engineering" readOnly className='input-readonly' />
+                                <input disabled value='B.Tech Aerospace Engineering' readOnly className='input-readonly' />
 
                                 <select name="exam" id="exam" className=' dropdwon-shadow'>
                                     <option value="Select campus">Competative exam</option>
@@ -65,7 +66,7 @@ export default function Subscholarshipsection() {
                 <Row>
                     <Col md={12}>
                         <div>
-                            <Accordion>
+                            <Accordion >
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>General terms</Accordion.Header>
                                     <Accordion.Body>
@@ -289,7 +290,7 @@ export default function Subscholarshipsection() {
                                                             <li>The achievements should be within three years from the year of application.</li>
                                                             <li>The application will be considered only if the applicant has participated/won in their sport at an International, National, State, or Zonal level.</li>
                                                             <li>The list of sports for which Admissions are available under Sports Quota is mentioned below:</li>
-                                                            </ul>
+                                                        </ul>
                                                         <Table striped bordered hover>
                                                             <thead>
                                                                 <tr>
@@ -321,21 +322,21 @@ export default function Subscholarshipsection() {
                                                         <h6 style={{ color: ' #007367' }}>Shortlisting & Trials</h6>
                                                         <ul style={{ listStyleType: 'square' }}>
                                                             <li>Application review :
-                                                            All applications will be analyzed, and the candidates who rank the highest amongst the applicants and meet the criteria set will be called for Selection Trials & Interviews.</li>
+                                                                All applications will be analyzed, and the candidates who rank the highest amongst the applicants and meet the criteria set will be called for Selection Trials & Interviews.</li>
                                                             <li>Selection Trials + Interview :
-                                                                <ul style={{listStyleType:'circle'}}>
+                                                                <ul style={{ listStyleType: 'circle' }}>
                                                                     <li>The candidates who have cleared the Application review process will participate in a Selection Trials process. The Selection Trial will be an assessment of their game/sport – which shall include :
-                                                                        <ol style={{listStyleType:'none'}}>
+                                                                        <ol style={{ listStyleType: 'none' }}>
                                                                             <li>a. Sport Specific Fitness</li>
                                                                             <li>b. Fundamental knowledge and skills in the sport</li>
                                                                             <li>c. Overall playing ability</li>
                                                                         </ol>
                                                                     </li>
                                                                     <li>The personal interview will also assess the candidate's overall fit.</li>
-                                                                </ul>                                                            
+                                                                </ul>
                                                             </li>
                                                             <li>The personal interview will also assess the candidate's overall fit.</li>
-                                                           
+
 
                                                         </ul>
                                                     </div>
@@ -346,6 +347,295 @@ export default function Subscholarshipsection() {
                                                     title={<span className={`tab-button ${key === 'Evaluation' ? 'active' : ''}`}>Evaluation</span>}
                                                 >
                                                     <div>
+                                                        <h6>The overall evaluation process shall be as follows</h6>
+                                                        <div>
+                                                            <Table striped bordered hover>
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>stage</th>
+                                                                        <th>Assessment type</th>
+                                                                        <th>Assessment categories</th>
+                                                                        <th>Weightage</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>1</td>
+                                                                        <td>Application process</td>
+                                                                        <td>Sports Achievement</td>
+                                                                        <td>30%</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>2</td>
+                                                                        <td>selection trials</td>
+                                                                        <td>
+                                                                            <tr>
+                                                                                <td>Academic History + GAT/GBAT/Entrance Test Score</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Sports Specific trials</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Personal Interviews</td>
+                                                                            </tr>
+                                                                        </td>
+                                                                        <td>
+                                                                            <tr>
+                                                                                <td>20%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>40%</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>10%</td>
+                                                                            </tr>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colSpan={2}>Total</td>
+                                                                        <td >100%</td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </Table>
+                                                        </div>
+
+                                                        <h6>The various levels of competitions and categories of events are given below</h6>
+                                                        <div>
+                                                            <Table striped bordered hover>
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Level of Competation</th>
+                                                                        <th>Name of Competations</th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td rowSpan={2}>Recognized International Events</td>
+                                                                        <td>International (Olympics/Asian games)</td>
+
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>International (Games conducted every six months), International level competitions organized by the World Federation for the sport</td>
+                                                                    </tr>
+
+
+
+                                                                    <tr>
+                                                                        <td rowSpan={5}>Recognized National Events</td>
+                                                                        <td>National Championships/National Games – Organized by National Federations/IOA/MYAS</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>School Games Federation of India (SGFI) Meet (National Level)/Khelo India School Games/Khelo India University Games</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>All India Rural Sports Meet/PYKKA (Panchayat YuvaKrida Aur Khel Abhiyan) National Level Rural Competition (National Level), AIU Inter University Games</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>National Sports Festival for Women/PYKKA National Level Women Competition (National Level)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>National Inter-School Competition (National Level)</td>
+                                                                    </tr>
+
+
+
+
+                                                                </tbody>
+                                                            </Table>
+
+                                                        </div>
+                                                        <div>
+                                                            <Table striped bordered hover>
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Level of Competation</th>
+                                                                        <th>Name of Competations</th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Recognized State championship</td>
+                                                                        <td>
+                                                                            State Championship Representing Revenue District – Organized by State Association
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td rowSpan={2}>Recognized National Events</td>
+                                                                        <td>KVS/CBSE National Sports Meet (State Level)</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>PYKKA State Rural Competition</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td rowSpan={5}>Recognized District/Zonal events</td>
+                                                                        <td>District Tournaments/Sports Meet/Championships conducted by District Sports Associations</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>District Inter School Competition/SAI Promotion Games (District Level)
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>PYKKA – District Level Rural competition</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>PYKKA District Level Women competition</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>AIU Zonal level competitions</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </Table>
+
+                                                        </div>
+                                                        <h6>Authorization authority for certificates</h6>
+                                                        <div>
+                                                            <Table striped bordered hover>
+                                                                <thead>
+                                                                    <tr>
+
+                                                                        <th>Category details</th>
+                                                                        <th>Competent authority for authorization</th>
+
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+
+                                                                        <td>International (Representing Nation)</td>
+                                                                        <td>President/Secretary of the National Sports Federation (recognized by Ministry of Youth Affairs and Sports/IOA) Participation certificate should be signed by the President/Secretary General/Chairman of the Organizing Committee of the host Nation</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>National (Representing State)</td>
+                                                                        <td>Member Secretary, Secretary of the State Association</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>National Games (Representing the State)</td>
+                                                                        <td>President/Secretary of IOA and Chairman of the organizing committee</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>National (Representing State)</td>
+                                                                        <td>	Chief Inspector of Physical Education for National School Games competitions</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>Khelo India University Games</td>
+                                                                        <td>	VC/Registrar of University/Khelo India Games Certificate</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>School Games Federation of India (SGFI) (National Level)</td>
+                                                                        <td>President/Hon. Gen. Secretary, SGFI</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>Khelo India/National Inter-School Competition (National Level)</td>
+                                                                        <td>Executive Director/Director-General, Sports Authority of India</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>All India Rural Sports (National Level)</td>
+                                                                        <td>Executive Director/Director-General, Sports Authority of India</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>National Sports Festival for Women (National Level)k</td>
+                                                                        <td>Executive Director/Director-General, Sports Authority of India</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>PYKKA (Panchayat Yuva Krida Aur Khel Abhiyan) National Level Rural Tournament</td>
+                                                                        <td>Executive Director/Director-General, Sports Authority of India
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>KVS Nationals (State Level)</td>
+                                                                        <td>Commissioner / Joint Commissioner of KVS</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>CBSE National Sports Meet (State Level)</td>
+                                                                        <td>A. E. O. – Sports/Secretary, CBSE
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>State Inter School Competitions (State Level)</td>
+                                                                        <td>	Member Secretary, State Sports Development Authority</td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>PYKKA State Rural Competition	</td>
+                                                                        <td>Member Secretary, State Sports Development Authority
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>CBSE South Zone Sports Meet (Divisional Level)	</td>
+                                                                        <td>A.E.O. – Sports/Secretary, CBSE
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>District Inter School Competitions (Divisional Level)	</td>
+                                                                        <td>District Sports Officer
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>PYKKA District Rural Competition	</td>
+                                                                        <td>Member Secretary and District Sports Officer
+                                                                        </td>
+
+                                                                    </tr>
+                                                                    <tr>
+
+                                                                        <td>District Level Competitions	</td>
+                                                                        <td>District Education Officer
+                                                                        </td>
+
+                                                                    </tr>
+
+                                                                </tbody>
+                                                            </Table>
+                                                        </div>
+                                                        <h6 style={{color:'#007367'}}>Scholarship renewal</h6>
+                                                        <p>The scholarship offered under Sports is applicable only for the first year. The same scholarship will be continued, revised in the subsequent years of study subject to</p>
+                                                        <div>
+                                                            <ol style={{listStyleType:'i'}}>
+                                                                <li>Scoring a minimum CGPA of 6.0.</li>
+                                                                <li>Performance & achievement in sport, including but not limited to representing the University at approved sports competitions.</li>
+                                                                <li>Maintaining an impeccable disciplinary record.</li>
+                                                                <li>Failing in one or more of the above criteria will lead to scholarship withdrawal.</li>
+                                                                <li>Scholarship revision will be done at the discretion of the Management.</li>
+                                                            </ol>
+                                                        </div>
                                                     </div>
                                                 </Tab>
                                             </Tabs>

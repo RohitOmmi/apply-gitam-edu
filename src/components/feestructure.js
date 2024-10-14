@@ -62,7 +62,7 @@ export default function FeeStructure() {
                                 <div className="d-flex align-items-center">
                                     <div>
                                         <h5 className="cardTitle">First year</h5>
-                                        <h3 className="cardValue"><i class="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
+                                        <h3 className="cardValue"><i className="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
                                     </div>
                                 </div>
                             </div>
@@ -70,11 +70,11 @@ export default function FeeStructure() {
                                 <div className='card-footer-alignment'>
                                     <div>
                                         <h5 className="subTitle">Sem 1</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                     <div>
                                         <h5 className="subTitle">Sem 2</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ export default function FeeStructure() {
                                 <div className="d-flex align-items-center">
                                     <div>
                                         <h5 className="cardTitle">Second year</h5>
-                                        <h3 className="cardValue"><i class="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
+                                        <h3 className="cardValue"><i className="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
                                     </div>
                                 </div>
                             </div>
@@ -94,11 +94,11 @@ export default function FeeStructure() {
                                 <div className='card-footer-alignment'>
                                     <div>
                                         <h5 className="subTitle">Sem 1</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                     <div>
                                         <h5 className="subTitle">Sem 2</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ export default function FeeStructure() {
                                 <div className="d-flex align-items-center">
                                     <div>
                                         <h5 className="cardTitle">Third year</h5>
-                                        <h3 className="cardValue"><i class="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
+                                        <h3 className="cardValue"><i className="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
                                     </div>
                                 </div>
                             </div>
@@ -118,11 +118,11 @@ export default function FeeStructure() {
                                 <div className='card-footer-alignment'>
                                     <div>
                                         <h5 className="subTitle">Sem 1</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                     <div>
                                         <h5 className="subTitle">Sem 2</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ export default function FeeStructure() {
                                 <div className="d-flex align-items-center">
                                     <div>
                                         <h5 className="cardTitle">Fourth year</h5>
-                                        <h3 className="cardValue"><i class="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
+                                        <h3 className="cardValue"><i className="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
                                     </div>
                                 </div>
                             </div>
@@ -142,11 +142,11 @@ export default function FeeStructure() {
                                 <div className='card-footer-alignment'>
                                     <div>
                                         <h5 className="subTitle">Sem 1</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                     <div>
                                         <h5 className="subTitle">Sem 2</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@ export default function FeeStructure() {
                                 <div className="d-flex align-items-center">
                                     <div>
                                         <h5 className="cardTitle">Fifth year</h5>
-                                        <h3 className="cardValue"><i class="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
+                                        <h3 className="cardValue"><i className="fa-solid fa-indian-rupee-sign"></i> 295000</h3>
                                     </div>
                                 </div>
                             </div>
@@ -166,11 +166,11 @@ export default function FeeStructure() {
                                 <div className='card-footer-alignment'>
                                     <div>
                                         <h5 className="subTitle">Sem 1</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                     <div>
                                         <h5 className="subTitle">Sem 2</h5>
-                                        <h6><i class="fa-solid fa-indian-rupee-sign"></i>145000</h6>
+                                        <h6><i className="fa-solid fa-indian-rupee-sign"></i>145000</h6>
                                     </div>
                                 </div>
                             </div>

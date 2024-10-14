@@ -55,22 +55,22 @@ body {
 /* /* .position{
    position: fixed;
   top:5px;  */
+/* .header-bg-container{
 
-.header{
-  position:fixed;
-  background-color: #ffffff;
-  width: 100vw;
-  height: auto;
+} */
+ /*.header{
+  width:100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex ;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.gitam-logo{
-  width: auto;  
-  height: 100px;
-   margin-top: 10px;
-  margin-left:20px; 
+.gitam-logo-fluid{
+    
+ height:100px;
+    
 }
 .contact-icon{
   display: flex;
@@ -90,23 +90,54 @@ body {
 }
 .contact-color{
   color:#ffffff;
+} */
+
+/* headersection */
+.header-bg-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0px 0px;
+  /* background-color: #ffffff;
+  position:fixed; */ 
 }
+.header-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-fluid{
+  width: 100% !important;
+  height:100px;
+
+}
+.contact-no-icon{
+  background-color: #007367;
+  border-radius: 20px; 
+  padding:8px 10px 5px 10px;
+  align-items: center !important;
+}
+/* .gitam-logo-fluid{
+  width:100%;
+  height: 100px;
+} */
 .vid-dimensions{
-  width:100vw;
-  position: absolute;
+  width:100vw !important;
+  
 }
-.floating-divs{
+/* .floating-divs{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-}
+} */
 .floating-div{
-  
-  border-radius: 15px;
-  box-shadow: 0px 5px 10px #aaa;
-  padding:15px 40px 15px 20px;
-  margin-top: -35px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  padding:28px 24px;
+  margin-top: -85px;
   background-color: #ffffff;
   
 }
@@ -119,11 +150,12 @@ body {
   font-size: 27px;
 }
 .text-below-digits{
-  font-size: 24px;
+  font-size:18px;
+  font-family: "poppins";
 }
 .about-info{
-  padding-top:50px;
-  font-size: 24px;
+  padding-top:15px;
+  font-size: 14px;
   font-weight: 400;
 }
 .btn-toggle:hover {
@@ -135,9 +167,7 @@ body {
   flex-direction: row; 
   justify-content: space-between;
 }
-.dropdown-input{
-  padding:20px;
-}
+
 
 .custom-button{
   background-color: #007367;
@@ -154,12 +184,11 @@ body {
   border:none;
   border-radius: 8px;
   padding:15px;
-  margin-top: -150px;
+  /* margin-top: -150px; */
+  position: absolute;
+  top:500px;
 }
-input{
-  box-shadow: 0px 5px 2px #007367;
-  border-color: #007367;
-}
+
 /* .image-fee-instructions{
   w;
 } */
@@ -204,15 +233,16 @@ input{
   text-align: center;
   display: flex;
   flex-direction: row;
-  
-  margin-left:45%;
+  margin-right:auto;
+  margin-left:auto;
 }
 .text-center{
   text-align: center;
   margin-bottom: 40px;
 }
 .shadow-card{
-  box-shadow: 5px 10px 8px #aaa;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  
   margin:5px 15px;
   /* border: 0.2px solid #dbdada */
 }
@@ -382,4 +412,45 @@ input{
   padding: 25px 0px;
   margin-top:18px;
   margin-bottom: 30px;
+}
+/* discipline-section */
+.discipline{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.discipline-card-img1{
+  text-align: center;
+}
+.dispcard{
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 2px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+/* faqs */
+.faqs{
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.w-100{
+  width: 100% !important;
+}
+.faqs-div{
+  display: flex;
+  flex-direction: row;
+
+}
+/* footer */
+.bg-container{
+  background-color: #060404;
+  color:#ffffff;
+  padding-top: 15px;
+  padding-bottom:13px;
+}
+.footer-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

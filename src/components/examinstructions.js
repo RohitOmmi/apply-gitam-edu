@@ -52,85 +52,85 @@ export default function ExamInstructions() {
                                         <Row>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Ananthapuram</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Kakinada</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Rajahmundary</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Vijayawada</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Bhimavaram</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Kurnool</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Srikakulam</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Visakhapatnam</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Kadapa</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Nellore</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Tirupati</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Visakhapatnam</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Guntur</h4>
                                                 </div>
                                             </Col>
                                             <Col>
                                                 <div className='locations'>
-                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <h4>Ongole</h4>
                                                 </div>
                                             </Col>

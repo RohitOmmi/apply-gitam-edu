@@ -10,11 +10,14 @@ import FeeStructure from './components/feestructure';
 import ExamInstructions from './components/examinstructions';
 import Scholarship  from './components/Scholarship';
 import Subscholarshipsection from './components/subscholarship';
+import Discipline from './components/discipline';
+import Faqs from './components/faqs';
+import Copyrights  from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <header>
+      <header style={{position:"sticky",top:"0px",backgroundColor:"#ffffff"}}>
         <AppHeader/>
       </header>
       <section>
@@ -38,6 +41,15 @@ function App() {
       <section>
         <Subscholarshipsection/>
       </section>
+      <section className='discipline'>
+        <Discipline/>
+      </section>
+      <section className='faqs'>
+        <Faqs/>
+      </section>
+      <footer>
+        <Copyrights/>
+      </footer>
     </div>
   );
 }
